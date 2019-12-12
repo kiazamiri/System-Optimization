@@ -1,1 +1,3 @@
-# System Optimization
+# Convex Optimization in Communication: Improving SINR in Adaptive Beamforming
+## Abstract
+This project presents the importance of convex optimization and its application in communications especially in adaptive beamforming. In order for a adaptive beamformer to function appropriately the SINR should be maximized. The use of convex optimization in maximizing SINR is portrayed in this work. Two methods of adaptive beamforming which are Sample Matrix Inversion (SMI) and Loaded Sample Matrix Inversion (LSMI) is simulated and the results are compared to an optimal solution. Also, these simulations are considered for two scenarios **(i)** when the signal steering vector is known and **(ii)** when the system is mismatched. The simulation results in both scenarios indicate that the LSMI algorithm gives much better performance than the SMI algorithm.
