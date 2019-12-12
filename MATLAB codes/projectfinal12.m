@@ -1,3 +1,4 @@
+% MATLAB codes for comparing the performance of SINR vs SNR
 clear all;
 
 M=10;  % No. of sensors
