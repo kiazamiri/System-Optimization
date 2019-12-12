@@ -70,6 +70,6 @@ for loop = 1:10
      SINR_SMI     = ((loop-1)/loop)*SINR_SMI + (1/loop)*SINR_SMI_v; % just average
      SINR_LSMI    = ((loop-1)/loop)*SINR_LSMI + (1/loop)*SINR_LSMI_v;
 end
-%save('Fig1_for_EX1_final','SINR_opt','SINR_SMI', 'SINR_LSMI') % Ex1
+save('Fig1_for_EX1_final','SINR_opt','SINR_SMI', 'SINR_LSMI') % Ex1
 %save('Fig1_for_EX2_final','SINR_opt','SINR_SMI', 'SINR_LSMI') % Ex2
 
